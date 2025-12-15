@@ -1,0 +1,6 @@
+langchain-nvidia-ai-endpoints
+streamlit
+langchain
+langchain-community
+faiss-cpu
+bs4
