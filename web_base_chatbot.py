@@ -116,7 +116,7 @@ def main():
                     os.environ["NVIDIA_API_KEY"] = api_key
 
                     embeddings = NVIDIAEmbeddings(
-                        model="nvidia/llama-3.2-nemoretriever-300m-embed-v2"
+                        model="nvidia/llama-nemotron-rerank-1b-v2"
                     )
                     llm = ChatNVIDIA(model=model_name)
 
