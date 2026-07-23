@@ -87,10 +87,10 @@ def main():
             [
                 "openai/gpt-oss-20b",
                 "openai/gpt-oss-120b",
-                "moonshotai/kimi-k2-thinking",
-                "meta/llama-3.3-70b-instruct"
+                #"moonshotai/kimi-k2-thinking",
+                #"meta/llama-3.3-70b-instruct"
             ],
-            index=3
+            index=0
         )
 
         load_button = st.button("🔄 Load Website", type="primary")
